@@ -5,10 +5,11 @@ vim.opt.relativenumber = true
 
 vim.tabstop = 4
 vim.opt.smartindent = true
+vim.o.shiftwidth=4
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = "~/.vim/undodir"
+vim.opt.undodir = "undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
