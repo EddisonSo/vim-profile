@@ -9,7 +9,7 @@ vim.o.shiftwidth=4
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = "undodir"
+vim.opt.undodir = vim.fn.expand("$HOME/.config")..'/nvim/undo-dir'
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
