@@ -1,1 +1,1 @@
-"vim.opt.showmode=true
+--vim.opt.showmode=true
