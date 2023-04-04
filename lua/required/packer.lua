@@ -25,6 +25,8 @@ return require('packer').startup(function(use)
 
   use 'mbbill/undotree'
 
+  use 'itchyny/lightline.vim'
+
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
