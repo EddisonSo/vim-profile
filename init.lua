@@ -5,9 +5,9 @@ vim.opt.relativenumber = true
 
 vim.tabstop = 4
 vim.opt.smartindent = true
-vim.o.shiftwidth=4
-vim.smarttab = true
-vim.expandtab = true
+vim.opt.shiftwidth=4
+vim.opt.smarttab = true
+vim.opt.expandtab = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
