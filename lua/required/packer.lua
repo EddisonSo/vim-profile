@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
 
   use { "catppuccin/nvim", as = "catppuccin" }
 
-  use {'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}}
+  use {'nvim-treesitter/nvim-treesitter'}
 
   use 'nvim-lua/plenary.nvim' 
 
@@ -51,4 +51,14 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
   }
+
+  use({
+    "stevearc/oil.nvim",
+    config = function()
+      require("oil").setup()
+    end,
+  })
+
+  use 'nvim-tree/nvim-web-devicons'
+
 end)
