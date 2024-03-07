@@ -11,7 +11,7 @@ vim.expandtab = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = vim.fn.expand("$HOME/.config")..'/nvim/undo-dir'
+vim.opt.undodir = vim.fn.expand("$HOME/.undo")
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
