@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
 
   use { "catppuccin/nvim", as = "catppuccin" }
 
+  use { "shaunsingh/nord.nvim", as = "nord" }
+
   use {'nvim-treesitter/nvim-treesitter'}
 
   use 'nvim-lua/plenary.nvim' 
